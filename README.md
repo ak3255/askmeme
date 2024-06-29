@@ -24,7 +24,7 @@ A Flutter application that fetches and displays random memes from the internet.
 
 ### Installation
 
-1. Clone the repository: `git clone <your-repository-url>`
+1. Clone the repository: `git clone <https://github.com/ak3255/askmeme>`
 2. Navigate to the project directory: `cd askmeme`
 3. Install dependencies: `flutter pub get`
 
