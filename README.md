@@ -1,16 +1,49 @@
-# askmeme
+# AskMeme
 
-A new Flutter project.
+A Flutter application that fetches and displays random memes from the internet.
+
+## Features
+
+* Fetches random memes from a public API.
+* Displays memes with a clean and user-friendly interface.
+* Allows users to view a new meme with a button press.
+* Tracks the number of memes viewed.
+* Includes a splash screen for a better user experience.
+* Uses SharedPreferences to persist the meme count.
+
+## Screenshots
+
+(Include some screenshots of your app here)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK installed ([https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install))
+* An IDE like Android Studio or VS Code with Flutter and Dart plugins.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository: `git clone https://github.com/ak3255/askmeme`
+2. Navigate to the project directory: `cd askmeme`
+3. Install dependencies: `flutter pub get`
+
+### Running the App
+
+* Connect a device or start an emulator.
+* Run the app: `flutter run`
+
+## Technologies Used
+
+* Flutter
+* Dart
+* HTTP package for network requests
+* SharedPreferences for data persistence
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
