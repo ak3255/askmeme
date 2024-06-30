@@ -6,7 +6,7 @@ class splashscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white54,
+      backgroundColor: Colors.white,
       body: Center(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -16,8 +16,8 @@ class splashscreen extends StatelessWidget {
             height: 20,
           ),
           Text(
-            "ASK Meme App",
-            style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+            "ASKMeme",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
           )
         ],
       )),

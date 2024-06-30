@@ -70,7 +70,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             isLoading
                 ? Container(
-                    height: 400,
+                    height: 300,
                     width: MediaQuery.of(context).size.width,
                     child: Center(
                       child: SizedBox(
@@ -80,7 +80,7 @@ class _MainScreenState extends State<MainScreen> {
                     ),
                   )
                 : Image.network(
-                    height: 400,
+                    height: 300,
                     width: MediaQuery.of(context).size.width,
                     fit: BoxFit.fitHeight,
                     imgUrl),
@@ -90,7 +90,7 @@ class _MainScreenState extends State<MainScreen> {
             ElevatedButton(
                 onPressed: () async {
                   await SaveMydata.saveData(memeNo! + 1);
-                  // await SaveMydata.saveData((memeNo ?? 0) + 1);
+
 
                   GetInitMemeNo();
 
