@@ -13,7 +13,12 @@ A Flutter application that fetches and displays random memes from the internet.
 
 ## Screenshots
 
-(Include some screenshots of your app here)
+![one](https://github.com/ak3255/askmeme/assets/37516866/d1641cee-4972-4844-a491-a08284fa3d56)
+![2](https://github.com/ak3255/askmeme/assets/37516866/077017e0-30ff-42a0-bba2-5ea085ea509d)
+![3](https://github.com/ak3255/askmeme/assets/37516866/ba1d6f58-6f4b-46bc-b42a-3ad50f0b0ae0)
+![4](https://github.com/ak3255/askmeme/assets/37516866/87dc3fd6-78dd-4022-99bc-f5d0397c32f4)
+
+
 
 ## Getting Started
 
